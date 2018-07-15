@@ -1,0 +1,158 @@
+* {
+  background-color: #fafafa;
+  font-family: pp-sans-big-light, "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 114px;
+  background-color: #2e2c2f;
+  border: 1px solid #2e2c2f;
+  margin: 0px;
+}
+
+.title {
+  padding: 0px 76px;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  display: flex;
+  justify-content: center;
+}
+
+.sentence {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #2c2e2f;
+}
+.sentences {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #2c2e2f;
+}
+
+.bio {
+  height: auto;
+  width: auto;
+  border: 1px solid #999999;
+  margin: 0px 0px 38px 0px;
+  padding: 0px 70px;
+  background-color: #999999;
+}
+
+.bout {
+  display: flex;
+  background-color: #999999;
+  justify-content: space-between;
+  align-items: center;
+}
+.bout p {
+  background-color: #999999;
+}
+.bout p :hover {
+  cursor: pointer;
+}
+
+.fa-plus,
+.fa-minus {
+  color: #2c2e2f;
+  background-color: #999999;
+  font-size: 1.55em;
+}
+
+.fa-plus:hover,
+.fa-minus:hover {
+  cursor: pointer;
+}
+
+.summary,
+.summary p,
+.summary p b {
+  background-color: #999999;
+}
+
+.contenu {
+  /*border: 1px solid;*/
+  height: auto;
+  margin: 38px 0px;
+  padding: 0px 70px;
+  display: flex;
+  align-items: center;
+}
+
+.fleche {
+  /* border: 1px solid;*/
+  font-size: 3em;
+  color: #999999;
+}
+
+.fleche :hover {
+  cursor: pointer;
+}
+
+.container {
+  margin: 38px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  border: 1px dashed;
+}
+
+.contenuImages {
+  flex: 2;
+  /*border: 1px solid green;*/
+  padding: 10px;
+  height: auto;
+  width: auto;
+}
+
+.picture {
+  width: 640px;
+  height: 480px;
+}
+
+.contenuText {
+  flex: 1;
+  /*border: 1px dashed green;*/
+  padding: 10px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.titre,
+.boutonGroup {
+  flex: 1;
+  /* border: 1px solid blue;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.commentaire {
+  /*flex: 6;*/
+  border: 1px solid #999999;
+  overflow-y: auto;
+  height: 343px;
+  padding: 5px 0px;
+}
+
+.boutonGroup {
+  justify-content: space-around;
+}
+
+.style {
+  border: 1px solid #999999;
+  border-radius: 5px;
+  letter-spacing: 1.2px;
+  padding: 5px;
+}
+.comment p {
+  padding: 5px;
+  font-size: 15px;
+  /* line-height: 2px;*/
+  color: #2c2e2f;
+  margin: 0px;
+}
