@@ -2,88 +2,80 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="refresh" content="5000" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>No Comment</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="refresh" content="5000" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <title>No Comment</title>
 </head>
 
 <body>
-    <div class="navbar">
+
+
+  <!-- -->
+  <div class="bio">
+    <div class="bout">
+      <p class="sentences"> Fiche-Info</p>
+      <i class="fas fa-plus" onclick="affichage();" id="action"></i>
+    </div>
+    <div class="summary" id="summary">
 
     </div>
-    <div class="title">
-        <p class="sentence">Comment or not comment that is the question ?</p>
+  </div>
+
+
+  <!-- Next step -->
+  <div class="contenu">
+
+
+    <!-- fleche -->
+    <div class="fleche">
+      <i class="fas fa-angle-left" id="left" onclick="previous();"></i>
     </div>
 
-    <!-- -->
-    <div class="bio">
-        <div class="bout">
-            <p class="sentences"> Fiche-Info</p>
-            <i class="fas fa-plus" onclick="affichage();" id="action"></i>
+
+    <!-- contenu -->
+    <div class="container">
+      <div class="contenuImages">
+        <img src="images/montres_molles.jpg" class="picture" alt="montres_molles" id="picture" />
+      </div>
+      <div class="contenuText">
+        <div class="titre">
+          <p class="" id="oeuvre">
+            <b>Salvador Dali: </b>Les montres molles
+          </p>
         </div>
-        <div class="summary" id="summary">
-
+        <div class="commentaire">
+          <div class="comment" id="comments"></div>
         </div>
-    </div>
-
-
-    <!-- Next step -->
-    <div class="contenu">
-
-
-        <!-- fleche -->
-        <div class="fleche">
-            <i class="fas fa-angle-left" id="left" onclick="previous();"></i>
+        <div class="boutonGroup">
+          <input type="text" placeholder="Comment" class="style" id="isdata" value />
+          <button class="style" onclick="sendData();"> Send</button>
         </div>
-
-
-        <!-- contenu -->
-        <div class="container">
-            <div class="contenuImages">
-                <img src="images/montres_molles.jpg" class="picture" alt="montres_molles" id="picture" />
-            </div>
-            <div class="contenuText">
-                <div class="titre">
-                    <p class="" id="oeuvre">
-                        <b>Salvador Dali: </b>Les montres molles
-                    </p>
-                </div>
-                <div class="commentaire">
-                    <div class="comment" id="comments"></div>
-                </div>
-                <div class="boutonGroup">
-                    <input type="text" placeholder="Comment" class="style" id="isdata" value />
-                    <button class="style" onclick="sendData();"> Send</button>
-                </div>
-            </div>
+      </div>
 
 
 
-
-        </div>
-
-
-        <!-- fleche -->
-        <div class="fleche">
-            <i class="fas fa-angle-right" id="right" onclick="next();"></i>
-        </div>
-    </div>
-
-
-    <div class="title">
-        <p class="sentence">This is why we love code</p>
-    </div>
-    <div class="navbar">
 
     </div>
 
 
+    <!-- fleche -->
+    <div class="fleche">
+      <i class="fas fa-angle-right" id="right" onclick="next();"></i>
+    </div>
+  </div>
 
-    <script type="text/javascript" src="js/index.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <div class="navbar">
+    <p>Createur: Mj</p>
+    <p>Date de creation: 09/11/2017</p>
+  </div>
+
+
+
+  <script type="text/javascript" src="js/index.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </body>
 
 </html>
